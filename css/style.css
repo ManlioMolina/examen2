@@ -1,0 +1,163 @@
+
+
+:root{
+	--color-contenido: #898989;
+	--color-negro:  #282d33;
+	--color-gris: #f5f5f5;
+}
+
+body{
+	font-size: Segoe UI;
+	font-size: 15px;
+	color: #777;
+}
+header{
+	position: relative;
+	background-color: #f9f9f9;
+	width: 100%;
+	top:0;
+}
+footer{
+	background-color: #30363d;
+	padding: 30px;
+	color: #999;
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+footer p{
+	margin-bottom: 0;
+}
+
+.hero{
+	background-color: var(--color-gris);
+}
+
+.hero h1{
+	font-size: 80px;
+	color: var(--color-negro);
+}
+
+.hero p{
+	color: var(--color-contenido);
+	font-weight: 300;
+	font-size: 15px;
+	padding: 20px 0;
+}
+
+.hero .btn{
+	padding: 10px 50px;
+	font-size: 10px;
+	border-radius: 50px;
+}
+
+.img-home{
+	width: 800px;
+	height: 600px;
+}
+
+.cta-products{
+	text-align: center;
+	color: #fff;
+	padding: 100px 0;
+	background-image: url("../img/product-parallax.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.cta-products h2{
+	font-size: 80px;
+	padding: 20px 0;
+}
+
+.cta-products p{
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.info-products{
+	padding: 100px 0;
+}
+
+.info-products h2{
+	color: var(--color-negro);
+	padding-top: 70px;
+	padding-bottom: 30px;
+}
+
+.info-products p{
+	color: var(--color-contenido);
+	font-size: 15px;
+}
+
+.info-products a{
+	padding-top: 20px;
+	font-weight: 700;
+}
+
+.cta-flexibility{
+	color: #fff;
+	padding: 100px 0;
+	background-image: url("../img/product-parallax-2.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.cta-flexibility h2{
+	padding-top: 70px;
+	padding-bottom: 30px;
+}
+
+.cta-flexibility p{
+	color: var(--color-contenido);
+	font-size: 15px;
+}
+
+.cta-flexibility a{
+	color: #fff;
+}
+
+.products{
+	text-align: center;
+	color: var(--color-negro);
+	padding: 100px 0;
+}
+
+.products h2{
+	padding-bottom: 30px;
+}
+
+.products i{
+	padding: 20px 0;
+	color: var(--color-gris);
+}
+
+.products .light-star{
+	color: var(--color-gris);
+}
+
+.products h2,h3{
+	padding: 15px 0;
+}
+
+.products .name-shop{
+	font-size: 17px;
+}
+
+.products h3{
+	color: var(--color-gris);
+	font-size: 15px;
+}
+
+.products p{
+	padding-bottom: 50px;
+}
+
+.client{
+	background-color: var(--color-gris);
+	padding: 50px 0;
+}
